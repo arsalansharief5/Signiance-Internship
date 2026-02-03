@@ -1,0 +1,2 @@
+0 19 * * * cd /home/arslan/internship-day1/ops && bash scripts/log_backup.sh >> out/cron.log 2>&1
+5 19 * * * cd /home/arslan/internship-day1/ops && bash scripts/file_automation.sh >> out/cron.log 2>&1
